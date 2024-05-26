@@ -11,6 +11,24 @@
 ///
 //===----------------------------------------------------------------------===//
 
+// TODO -> install to headers using CMake
+// ? TODO -> way of defining generic types
+// ? TODO -> old/new variants for structures/types (not only functions)
+// ? TODO -> fix: floats passed to output mappings are automatically converted
+// to doubles
+// ? TODO -> extern variables require special handling?
+
+// ? TODO -> general changes:
+// ? -> pattern compilation: O0 vs O1? disable-llvm-passes + add more passes?
+// enable verbosity when diffkemp set to verbose? output errors from
+// compilation?
+// ? -> pattern comparison: use some builtin patterns?
+// ? -> fix bug with multiple comparsions, __put_task_struct.pattern.c
+// ? -> add headers or something to tests
+// ? -> check if pattern names match the .ll patterns; check if well written (headers vs manual declarations)
+// ? -> command line option to disable certain clang passes?
+// ? -> "TODO CHECK double pattern end tag; multiple successors diffkemp pattern end; enable/disable builtin patterns for custom patterns"
+
 /**
  * Usage:
  *
